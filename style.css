@@ -1,0 +1,139 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+div {
+	display: block;
+}
+
+body {
+	font-family: "Lato";
+	font-weight: 300;
+	position: relative;
+	height: 100vh;
+	color: rgb(85, 85, 85);
+}
+.wrapper {
+	width: 1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 50px;
+	opacity: 0.9;
+	overflow: hidden;	
+}
+
+.player-1-left, .player-2-right {
+	width: 50%;
+	float: left;
+	height: 600px;
+	padding: 100px;
+}
+
+.player-name {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 100;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.player-score {
+	text-align: center;
+	font-size: 80px;
+	font-weight: 100;
+	color: rgb(235, 77, 77);
+	margin-bottom: 130px;
+}
+.player-box {
+	background-color: rgb(235, 77, 77);
+	color: #fff;
+	width: 40%;
+	text-align: center;
+	margin: 0px auto;
+	padding: 12px;
+}
+
+.player-label {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: #222;
+}
+
+.player-current-score {
+	font-size: 30px;
+}
+
+button {
+	position: absolute;
+	width: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: rgb(85, 85, 85);
+	font-family: "Lato";
+	font-size: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 300;
+	border-width: initial;
+	border-style: none;
+	border-color: initial;
+	border-image: initial;
+	background: none;
+	outline: none;
+
+}
+
+button:hover {
+	font-weight: bold;
+
+}
+
+.btn-new_game {
+	top: 45px;
+}
+
+.btn-roll_dice {
+	top: 403px;
+}
+
+.btn-hold {
+	top: 467px;
+
+}
+
+i {
+	color: #EB4D4D;
+	display: inline-block;
+	margin-right: 15px;
+	font-size: 32px;
+	line-height: 1;
+	vertical-align: text-top;
+	margin-top: -4px;
+	font-style: italic;
+}
+
+.dice {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 100px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 60px;
+}
+
+#dice {
+	top: 160px;
+}
+
+.isActive {
+	background-color: #F7F7F7;
+	
+}
